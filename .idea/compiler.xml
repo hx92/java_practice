@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="practice" />
+        <module name="singleton" />
+        <module name="ovserver" />
+        <module name="nio" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,4 +1,4 @@
-package test.singleton;
+package com.hx92.practice.singleton;
 
 import java.io.File;
 import java.nio.file.Files;

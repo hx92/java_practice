@@ -1,4 +1,4 @@
-package test.singleton;
+package com.hx92.practice.singleton;
 
 public class Testt {
   static int i = 1;

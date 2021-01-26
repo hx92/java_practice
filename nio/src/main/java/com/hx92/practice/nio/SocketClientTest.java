@@ -1,10 +1,4 @@
-package test.io.nio;
-
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.InetAddress;
-import java.net.Socket;
-import java.util.UUID;
+package com.hx92.practice.nio;
 
 public class SocketClientTest {
 
