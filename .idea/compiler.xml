@@ -7,9 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="singleton" />
+        <module name="jvm" />
         <module name="ovserver" />
         <module name="nio" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="observer" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
