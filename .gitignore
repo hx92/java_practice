@@ -1,5 +1,0 @@
-*.class
-target/classes/*
-.idea/*
-$CACHE_FILE$
-$PRODUCT_WORKSPACE_FILE$
