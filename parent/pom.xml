@@ -3,16 +3,17 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>com.hx92.practice</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>nio</module>
-    <module>observer</module>
-    <module>singleton</module>
-    <module>jvm</module>
+    <module>../nio</module>
+    <module>../observer</module>
+    <module>../singleton</module>
+    <module>../jvm</module>
+    <module>../concurrency</module>
+    <module>../threadPool</module>
   </modules>
   <properties>
     <maven.compiler.target>11</maven.compiler.target>
@@ -37,7 +38,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.16</version>
+      <version>8.0.15</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -48,7 +49,8 @@
       <groupId>org.apache.tomcat.embed</groupId>
       <artifactId>tomcat-embed-core</artifactId>
       <version>9.0.35</version>
-    </dependency></dependencies>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
