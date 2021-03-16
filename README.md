@@ -1,4 +1,4 @@
-# java_practice
+# java_practice demos
 
 学习Java的过程中，练习用的项目，为初学者提供练习demo\
 包含模块：
