@@ -15,6 +15,7 @@ public class AidemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AidemoApplication.class, args);
 	}
+
 	@Bean
 	@Description("根据用户编号和订单编号查询订单信息")
 	public Function<OrderService.Request, Response> getOrderFunction(OrderService orderService) {

@@ -16,7 +16,7 @@ public class OrderService {
     private final Map<Request, String> orderInfo = ImmutableMap.of(new Request("1111", "AAAA"), "尤尼克斯羽毛球拍");
 
     public Response getOrder(Request request) {
-        String productName = orderInfo.getOrDefault(request,"默认商品");
+        String productName = orderInfo.getOrDefault(request, "默认商品");
         return new Response(String.format("%s的订单编号为%s, 购买的商品为: %s", request.userId, request.orderId, productName));
     }
 
